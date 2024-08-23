@@ -1,0 +1,21 @@
+/* 45, 46Install SASS để dùng SCSS | Cài đặt và sử dụng SCSS trong dự án
+ */
+.btn{
+    padding: 4px, 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+
+.primary {
+    color: #fff;
+    background-color: #007bf6;
+}
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
